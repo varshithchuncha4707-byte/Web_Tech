@@ -1,35 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Login</title>
 </head>
-<body bgcolor="yellow" align= "center">
-    <div style="text-align: center">
-        <h1 >QUESTION BANK</h1>
-        <hr>
 
-        <h2 >Student Login</h2>
+<body bgcolor="#FFFFFF">
+    <br><br>
+    <table width="55%"
+           align="center"
+           border="1"
+           cellpadding="15"
+           cellspacing="0">
 
-        <form action="courses.html">
+        <tr bgcolor="#D6EAF8">
+            <td align="center">
+                <font size="5">
+                    <b>🔑 STUDENT LOGIN</b>
+                </font>
+                <br>
+                <font size="3">
+                    Question Bank
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form action="courses.html">
+                    <table width="100%" cellpadding="8">
+                        <tr>
+                            <td align="right">
+                                <b>Email:</b>
+                            </td>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" placeholder="ex : student@gmail.com" required><br><br>
-
-        <label>Password:</label><br>
-        <input type="password" name="password" placeholder="...." style="text-align: center;"><br><br>
-
-        <input type="submit" value="Login">
-
-        </form>
-
-        <br>
-
-        <p>Don't have an account?</p>
-
-        <a href="registration.html">Sign Up</a>
-        <input type="reset" value="Reset">
-    </div>
+                            <td>
+                                <input type="email" name="email" size="30" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <b>Password:</b>
+                            </td>
+                            <td>
+                                <input type="password" name="password" size="30" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Login">
+                                &nbsp;&nbsp;
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+        <tr bgcolor="#F8F9F9">
+            <td align="center">
+                <b>New Student?</b>
+                &nbsp;
+                <a href="registration.html">
+                    Register here
+                </a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
